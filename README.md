@@ -116,4 +116,4 @@ Pull requests are welcome. For major changes, please open an issue first.
 
 ## 💬 Contact
 
-For queries, feel free to contact [Your Name] at [Your Email or LinkedIn]
+For queries, feel free to contact [Kishor Ravikumar] at [ece.kishor@gmail.com]
