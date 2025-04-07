@@ -87,13 +87,21 @@ Feature importances from the Random Forest model reveal that **suicidal thoughts
 
 ---
 
-## ✅ Results
+## ✅ Model Results
 
-| Dataset | Accuracy | Notes |
-|--------|----------|-------|
-| Validation | ~XX% | Tuned via 20% of original dataset |
-| Test       | ~XX% | Final evaluation on unseen data |
+### 📊 Validation Set
+- Accuracy: **84.9%**
+- Precision (Depressed): 86%
+- Recall (Depressed): 88%
+- F1 Score: 87%
 
+### 🧪 Test Set
+- Accuracy: **82.7%**
+- Precision (Depressed): 84%
+- Recall (Depressed): 87%
+- F1 Score: 85%
+
+> The model shows strong generalization with high performance on both validation and test sets. It is especially effective at identifying students who are at risk of depression (high recall for class 1). This ensures that fewer at-risk students go unnoticed.
 > **Top Features**:
 > 1. Suicidal Thoughts  
 > 2. Academic Pressure  
